@@ -1,0 +1,21 @@
+.navigation {  // Блок, стили для блока пишем отдельно! 
+  display: flex;
+  font-size: 1.5rem;
+  line-height: 2.8rem;
+}
+
+.navigation__link { //модификаторы можно так писать, т.к модификатор без блока и элемента существовать не может (потому что компонет потом трудно найти)
+  list-style: none;
+  padding: 0 10px;
+  cursor: pointer;
+  @extend %transition;
+  &:hover {
+    color: $color-primary;
+  }
+}
+
+.header__navigation {
+  @include media-tablet {
+    display: none;
+  }
+}
