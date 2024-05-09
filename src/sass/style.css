@@ -190,13 +190,13 @@ a {
 }
 
 .ico_play {
-  background-image: url("../src/img/icons/play.svg");
+  background-image: url("../img/icons/play.svg");
   width: 18px;
   height: 19px;
 }
 
 .ico_arrow {
-  background-image: url(/src/img/icons/arrow.svg);
+  background-image: url(../img/icons/arrow.svg);
   width: 12px;
   height: 17px;
 }
@@ -560,7 +560,7 @@ a {
 
 .tools__wrapper {
   padding-bottom: 90px;
-  background-image: url("/src/img/backgrounds/tool-bg.svg");
+  background-image: url("../img/backgrounds/tool-bg.svg");
   background-repeat: no-repeat;
   background-position: center bottom;
   background-size: 100%;
