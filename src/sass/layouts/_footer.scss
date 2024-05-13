@@ -26,6 +26,7 @@
   margin: 0 0 15px;
 }
 .footer-navigation__links {
+  
   @extend %font-add;
   a {
     color: $color-text;
