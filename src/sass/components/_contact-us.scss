@@ -33,7 +33,9 @@
       border: 1px solid $color-light;
       background-color: $color-light;
       border-radius: 5px;
-      padding: 10px 21px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      padding-left: 21px;
       &:focus {
         border-color: $color-primary;
         outline: none;
@@ -41,12 +43,13 @@
     }
     textarea {
       resize: none;
-      width: 100%;
+      width: 96%;
       height: 160px;
     }
 }
 
 .contact-us__line {
+  display: inline-block;
   margin-bottom: 19px;
   @include media-mobile {
     flex-direction: column;
@@ -56,6 +59,15 @@
     }
   }
 }
+.contact-us__input {
+  width: 252px;
+  margin-right: 16px;
+}
+.contact-us__input:last-child {
+  margin-right: 0;
+}
+
+
 
 .contact-us__button {
   >* {

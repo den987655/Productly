@@ -18,9 +18,16 @@ $image-gap: 32px;
 
 .employee {
   display: flex;
-  padding: 35px;
   position: relative;
   width: calc(30% - $image-gap);
+  align-items: center;
+  width: 345px;
+  height: 141px;
+
+}
+
+.employee__content {
+  padding-left: 35px;
 }
 
 .employee__name {

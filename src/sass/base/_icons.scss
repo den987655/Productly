@@ -1,6 +1,7 @@
 .ico {
   cursor: pointer;
   display: inline-block;
+  
 }
 
 .icon-square {
@@ -10,6 +11,7 @@
   display: inline-flex;
   align-items: center;
   justify-content: center;
+  background-repeat: no-repeat;
   &_yellow {
     background-color: $color-yellow;
   }
@@ -25,13 +27,44 @@
 }
 
 .ico_play {
-  background-image: url("../src/img/icons/play.svg");
+  background-image: url("../img/icons/play.svg");
   width: 18px;
   height: 19px;
 }
 
+// icons tool
 .ico_arrow {
-  background-image: url(/src/img/icons/arrow.svg);
+  background-image: url(../img/icons/arrow.svg);
   width: 12px;
   height: 17px;
+}
+.ico_two {
+  background-image: url(../img/icons/ico_img.svg);
+  width: 17px;
+  height: 14px;
+}
+.ico_love {
+  background-image: url(../img/icons/ico_love.svg);
+  width: 17px;
+  height: 14px;
+}
+.ico_download {
+  background-image: url(../img/icons/ico_download.svg);
+  width: 14px;
+  height: 14px;
+}
+
+.ico_phone {
+  background-image: url(../img/icons/ico_phone.svg);
+  background-repeat: no-repeat;
+  width: 25px;
+  height: 25px;
+  padding-right: 11px;
+}
+.ico_letter {
+  background-image: url(../img/icons/ico_mail.svg);
+  background-repeat: no-repeat;
+  width: 25px;
+  height: 25px;
+  padding-right: 11px;
 }
